@@ -20,9 +20,9 @@ were assigned different public IDs before session numbering.
 |---|---|---|
 | `zju_participants.csv` | Participant | Counts of structural and diffusion sessions. |
 | `zju_sessions.csv` | Participant-session | Gestational age and modality availability. |
-| `zju_diffusion_roi_metrics.csv` | Diffusion scan-region | `fdrad`, `fdtotal`, and `radiality`. |
-| `zju_curvature_roi_metrics.csv` | Structural scan-region | `curvature`. |
-| `zju_matched_roi_metrics.csv` | Matched session-region | Curvature and all diffusion metrics. |
+| `zju_diffusion_roi_metrics.csv.gz` | Diffusion scan-region | Gzip-compressed CSV containing `fdrad`, `fdtotal`, and `radiality`. |
+| `zju_curvature_roi_metrics.csv.gz` | Structural scan-region | Gzip-compressed CSV containing `curvature`. |
+| `zju_matched_roi_metrics.csv.gz` | Matched session-region | Gzip-compressed CSV containing curvature and all diffusion metrics. |
 | `zju_fdrad_roi_wide.csv` | Diffusion scan | FDrad values in 78 region columns. |
 | `zju_fdtotal_roi_wide.csv` | Diffusion scan | Total FD values in 78 region columns. |
 | `zju_radiality_roi_wide.csv` | Diffusion scan | Normalized radiality values in 78 region columns. |

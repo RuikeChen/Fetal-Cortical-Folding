@@ -122,8 +122,8 @@ def two_way_cluster(y: np.ndarray, x: np.ndarray, participant: np.ndarray, regio
     return beta, np.sqrt(np.maximum(np.diag(covariance), 0))
 
 
-diffusion = pd.read_csv(ROOT / "data" / "derived" / "zju_diffusion_roi_metrics.csv")
-matched = pd.read_csv(ROOT / "data" / "derived" / "zju_matched_roi_metrics.csv")
+diffusion = pd.read_csv(ROOT / "data" / "derived" / "zju_diffusion_roi_metrics.csv.gz")
+matched = pd.read_csv(ROOT / "data" / "derived" / "zju_matched_roi_metrics.csv.gz")
 metrics = ["fdrad", "fdtotal", "radiality"]
 
 development = {}

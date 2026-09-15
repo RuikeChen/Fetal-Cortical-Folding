@@ -23,7 +23,7 @@ docs/            Data dictionary, analysis index, and dataset summary
 
 ## Data scope
 
-The analysis tables contain study-specific participant and session IDs only.
+The ZJU analysis tables contain study-specific participant and session IDs only.
 Names, clinical identifiers, acquisition dates, and the private ID crosswalk are
 not included. Raw human MRI data are not part of this package and require a
 controlled-access process consistent with participant consent and institutional
@@ -34,7 +34,11 @@ intermediate images, and participant-specific cortical surfaces are not included
 The image-processing methods are described in the manuscript. Cortical surface
 normals were generated with the Connectome Workbench `-surface-normals` command.
 
-The public analysis tables contain 93 ZJU-Fetal dMRI scans from 92 participants,
+The three long-format ROI tables use gzip-compressed CSV (`.csv.gz`) files to
+support reliable browser-based repository upload. Python/pandas reads these files
+directly without manual decompression.
+
+The public analysis tables contain 93 ZJU dMRI scans from 92 participants,
 91 structural MRI scans from 89 participants, and 52 matched multimodal sessions
 from 51 participants. Among participants with analyzable imaging, 41 contributed
 dMRI only and 38 contributed structural MRI only. Two participants had repeated
@@ -112,9 +116,10 @@ reference files before revising manuscript values.
 - FSL 6.0.3
 - Connectome Workbench 1.5.0
 
-## Contact
-r.chen@zju.edu.cn
+## Citation and license
 
-Requests for controlled access to the raw ZJU-Fetal MRI data may be directed to
+Add the final repository DOI and software license before public release.
+
+Requests for controlled access to the raw ZJU MRI data may be directed to
 danwu.bme@zju.edu.cn. Access remains subject to the final ethics and data-use
 conditions stated in the manuscript.
