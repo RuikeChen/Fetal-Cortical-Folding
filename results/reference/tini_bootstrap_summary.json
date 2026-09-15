@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "primary_corrected_metadata",
+    "participant_clusters": 130,
+    "curvature_rows": 91,
+    "afd_rows": 93,
+    "full_tini_curvature": 27.58983827178796,
+    "full_se_curvature": 0.3168574832859585,
+    "full_tini_fdrad": 26.883033319789657,
+    "full_se_fdrad": 0.8635739114192539,
+    "full_delta_weeks": 0.7068049519983042,
+    "valid_bootstrap_replicates": 5000,
+    "invalid_bootstrap_replicates": 0,
+    "bootstrap_delta_ci_2_5": -1.8885203813774933,
+    "bootstrap_delta_median": 0.6709802534540543,
+    "bootstrap_delta_ci_97_5": 1.7473019210444742,
+    "bootstrap_probability_delta_gt_0": 0.836,
+    "bootstrap_probability_delta_gt_1_week": 0.2738
+  }
+]

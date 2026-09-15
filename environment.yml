@@ -1,0 +1,12 @@
+name: cortical-folding
+# MATLAB analyses: MATLAB R2021a with Statistics and Machine Learning Toolbox
+# Simulations: COMSOL Multiphysics 6.1 with LiveLink for MATLAB
+# Diffusion processing: MRtrix3 3.0_RC3-135-g2b8e7d0c-dirty
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - pillow
+  - reportlab

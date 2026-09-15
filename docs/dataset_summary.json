@@ -1,0 +1,16 @@
+{
+  "zju_cohort_participants": 130,
+  "zju_participants_with_analyzable_t2w_or_dmri": 130,
+  "zju_dmri_scans": 93,
+  "zju_dmri_participants": 92,
+  "zju_t2w_scans_in_public_analysis_table": 91,
+  "zju_t2w_participants_in_public_analysis_table": 89,
+  "zju_paired_sessions": 52,
+  "zju_paired_participants": 51,
+  "zju_t2w_only_participants": 38,
+  "zju_dmri_only_participants": 41,
+  "zju_participants_with_repeated_t2w": 2,
+  "zju_participants_with_repeated_dmri": 1,
+  "regions": 78,
+  "excluded_internal_curvature_records": 0
+}

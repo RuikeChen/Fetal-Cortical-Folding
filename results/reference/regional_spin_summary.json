@@ -1,0 +1,25 @@
+{
+  "n_regions": 52,
+  "n_left": 26,
+  "n_right": 26,
+  "observed_pearson_r": 0.4073156531931895,
+  "n_spins": 10000,
+  "seed": 20260826,
+  "coupled_mirrored_spin_p_two_sided": 0.012198780121987801,
+  "independent_hemisphere_spin_p_two_sided_sensitivity": 0.0027997200279972004,
+  "coupled_null_quantiles_2_5_50_97_5": [
+    -0.3210064923133866,
+    -0.016516564077691052,
+    0.31156691408088305
+  ],
+  "reflection_axis_index": 0,
+  "reflection_alignment_scores": [
+    0.0471858833542603,
+    1.643711138834292,
+    1.4320177187703753
+  ],
+  "mean_chord_assignment_cost_left_right": [
+    0.46586557796551786,
+    0.4765339559624405
+  ]
+}

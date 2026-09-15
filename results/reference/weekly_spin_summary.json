@@ -1,0 +1,24 @@
+{
+  "n_regions_per_week": 78,
+  "n_spins": 10000,
+  "seed": 20260831,
+  "significant_weeks_BH_q_lt_0_05": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    34
+  ],
+  "significant_weeks_maxT_FWER_lt_0_05": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "n_regions": 52,
+  "n_bilateral_pair_clusters": 29,
+  "observed_pearson_r": 0.40731565319318946,
+  "bilateral_cluster_bootstrap_r_ci95": [
+    0.05432031288260278,
+    0.6638797483153968
+  ],
+  "hemisphere_stratified_permutation_p_two_sided": 0.0027498625068746564,
+  "observed_mean_delta_weeks": -0.40709886415544233,
+  "bilateral_cluster_bootstrap_mean_delta_ci95": [
+    -1.1928457466050837,
+    0.38302231925855035
+  ],
+  "observed_median_delta_weeks": -0.36674562949165157,
+  "bilateral_cluster_bootstrap_median_delta_ci95": [
+    -1.007500764332974,
+    0.14567509971270098
+  ],
+  "observed_proportion_regions_fdrad_earlier": 0.38461538461538464,
+  "bilateral_cluster_bootstrap_proportion_ci95": [
+    0.23636363636363636,
+    0.54
+  ],
+  "limitation": "Bilateral clustering and hemisphere-stratified permutation do not preserve full cortical geodesic spatial autocorrelation; ROI centroids or a labelled surface mesh are required for a proper spatial null."
+}

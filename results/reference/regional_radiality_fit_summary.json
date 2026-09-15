@@ -1,0 +1,16 @@
+{
+  "joint_primary_pass": {
+    "n_regions": 52,
+    "pearson_r": 0.4371520001336841,
+    "mean_delta_weeks": -0.605396675686836,
+    "median_delta_weeks": -0.6670704206069455,
+    "proportion_radiality_earlier": 0.28846153846153844
+  },
+  "joint_strict_pass": {
+    "n_regions": 50,
+    "pearson_r": 0.4421378047382846,
+    "mean_delta_weeks": -0.68453225314717,
+    "median_delta_weeks": -0.6670704206069455,
+    "proportion_radiality_earlier": 0.28
+  }
+}

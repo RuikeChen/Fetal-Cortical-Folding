@@ -1,0 +1,193 @@
+{
+  "alignment": {
+    "n_scans": 93,
+    "n_participants": 92,
+    "n_regions": 78,
+    "n_matched_curvature_scans": 52,
+    "n_matched_curvature_participants": 51,
+    "n_valid_curvature_scans": 90,
+    "n_valid_curvature_participants": 89
+  },
+  "radiality_qc": {
+    "minimum": 0.37664117398425534,
+    "maximum": 0.9021309922432633,
+    "n_nonfinite": 0,
+    "n_outside_0_1": 0
+  },
+  "roi_fixed_effect_development": {
+    "FDrad": {
+      "n_observations": 7254,
+      "n_clusters": 92,
+      "beta": [
+        1.820782023417844e-17,
+        -0.013239600430553536
+      ],
+      "se_cluster": [
+        0.005054429298539671,
+        0.0011381124303764636
+      ],
+      "z": [
+        3.602349376899792e-15,
+        -11.632945987747586
+      ],
+      "p_normal": [
+        0.9999999999999971,
+        2.8025544378732666e-31
+      ],
+      "slope_per_week": -0.013239600430553536,
+      "slope_se_cluster": 0.0011381124303764636,
+      "slope_p_normal": 2.8025544378732666e-31,
+      "slope_se_twoway_cluster": 0.0013642906899183687,
+      "slope_p_twoway_normal": 2.8881622550176517e-22
+    },
+    "FDtotal": {
+      "n_observations": 7254,
+      "n_clusters": 92,
+      "beta": [
+        -3.3356157462874347e-18,
+        -0.0017625848870654421
+      ],
+      "se_cluster": [
+        0.007186723076454104,
+        0.0014905360186392076
+      ],
+      "z": [
+        -4.641358392138315e-16,
+        -1.1825174735962456
+      ],
+      "p_normal": [
+        0.9999999999999997,
+        0.23700043637827325
+      ],
+      "slope_per_week": -0.0017625848870654421,
+      "slope_se_cluster": 0.0014905360186392076,
+      "slope_p_normal": 0.23700043637827325,
+      "slope_se_twoway_cluster": 0.0015222721074882885,
+      "slope_p_twoway_normal": 0.24691932202302808
+    },
+    "radiality": {
+      "n_observations": 7254,
+      "n_clusters": 92,
+      "beta": [
+        1.5138172833328856e-17,
+        -0.013786008347962222
+      ],
+      "se_cluster": [
+        0.0021413496163537257,
+        0.0005094997215220944
+      ],
+      "z": [
+        7.0694541039524525e-15,
+        -27.05793107556074
+      ],
+      "p_normal": [
+        0.9999999999999943,
+        3.0809875229134908e-161
+      ],
+      "slope_per_week": -0.013786008347962222,
+      "slope_se_cluster": 0.0005094997215220944,
+      "slope_p_normal": 3.0809875229134908e-161,
+      "slope_se_twoway_cluster": 0.0009329321880577838,
+      "slope_p_twoway_normal": 2.0591826903411562e-49
+    }
+  },
+  "cortical_mean_development": {
+    "FDrad": {
+      "slope_per_week": -0.013239600430553547,
+      "pearson_r": -0.7726740446086899
+    },
+    "FDtotal": {
+      "slope_per_week": -0.0017625848870654426,
+      "pearson_r": -0.11336819257354834
+    },
+    "radiality": {
+      "slope_per_week": -0.013786008347962238,
+      "pearson_r": -0.9484996767707035
+    }
+  },
+  "whole_cortex_gompertz": {
+    "FDrad": {
+      "n_scans": 93,
+      "parameters": {
+        "a": 0.5975026291359092,
+        "b": -0.16167476207047102,
+        "k": 0.40681064926921084,
+        "Tini": 26.75842803963819
+      },
+      "standard_errors": {
+        "a": 0.011385203961955033,
+        "b": 0.022188766098507888,
+        "log_k": 0.3453705176562848,
+        "Tini": 1.0088201274908593
+      },
+      "Tini_95_CI": [
+        24.781140589756106,
+        28.735715489520274
+      ],
+      "r_squared": 0.645188453770406,
+      "converged": true
+    },
+    "radiality": {
+      "n_scans": 93,
+      "parameters": {
+        "a": 0.6631578810980036,
+        "b": -0.1628462863864109,
+        "k": 0.44195362613537176,
+        "Tini": 27.508235138897902
+      },
+      "standard_errors": {
+        "a": 0.002765172470653659,
+        "b": 0.005869186582817435,
+        "log_k": 0.09699944416475483,
+        "Tini": 0.24974057595322724
+      },
+      "Tini_95_CI": [
+        27.018743610029578,
+        27.997726667766226
+      ],
+      "r_squared": 0.9611117745291574,
+      "converged": true
+    }
+  },
+  "curvature_associations_roi_fe_ga_adjusted_clustered": {
+    "FDrad": {
+      "n_matched_scans": 52,
+      "n_matched_participants": 51,
+      "standardized_beta_metric": -0.21955026671705202,
+      "cluster_se": 0.020323399793024288,
+      "z": -10.80283165971126,
+      "p_normal": 3.3374908621607985e-27,
+      "twoway_cluster_se": 0.025864083084941817,
+      "twoway_z": -8.488615892394622,
+      "twoway_p_normal": 2.0911263515636868e-17,
+      "standardized_beta_GA": 0.5488997266380152,
+      "GA_p_normal": 2.0763959841804312e-205
+    },
+    "FDtotal": {
+      "n_matched_scans": 52,
+      "n_matched_participants": 51,
+      "standardized_beta_metric": 0.01544266366595641,
+      "cluster_se": 0.014896669650781999,
+      "z": 1.0366520858671084,
+      "p_normal": 0.2998980296006593,
+      "twoway_cluster_se": 0.01573226568591406,
+      "twoway_z": 0.9815918427936958,
+      "twoway_p_normal": 0.32630096774842315,
+      "standardized_beta_GA": 0.6791798366857661,
+      "GA_p_normal": 0.0
+    },
+    "radiality": {
+      "n_matched_scans": 52,
+      "n_matched_participants": 51,
+      "standardized_beta_metric": -0.455445399089197,
+      "cluster_se": 0.021466367754753735,
+      "z": -21.216696009893823,
+      "p_normal": 6.696770887038553e-100,
+      "twoway_cluster_se": 0.03185859138687804,
+      "twoway_z": -14.2958423226705,
+      "twoway_p_normal": 2.322782263195793e-46,
+      "standardized_beta_GA": 0.37366746073637697,
+      "GA_p_normal": 4.2109139879467075e-91
+    }
+  }
+}

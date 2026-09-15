@@ -1,0 +1,44 @@
+[
+  {
+    "outcome": "followup_curvature_ancova",
+    "n_subjects": 16,
+    "n_regions": 32,
+    "standardized_beta": -0.06208779453586031,
+    "partial_correlation": -0.07251308081927005,
+    "participant_profile_permutation_p_two_sided": 0.25631743682563174,
+    "null_95_interval": [
+      -0.10492796653956121,
+      0.10523753931620661
+    ],
+    "leave_one_subject_out_beta_range": [
+      -0.07959257404122258,
+      -0.040030802821383424
+    ],
+    "nuisance_covariates": [
+      "curvature1",
+      "ga1",
+      "delta_ga"
+    ]
+  },
+  {
+    "outcome": "curvature_change_rate",
+    "n_subjects": 16,
+    "n_regions": 32,
+    "standardized_beta": -0.04482132275328546,
+    "partial_correlation": -0.05806453911837456,
+    "participant_profile_permutation_p_two_sided": 0.4149658503414966,
+    "null_95_interval": [
+      -0.10289254628935841,
+      0.10337767256159155
+    ],
+    "leave_one_subject_out_beta_range": [
+      -0.06695847068275268,
+      -0.014778737573550868
+    ],
+    "nuisance_covariates": [
+      "curvature1",
+      "ga1",
+      "delta_ga"
+    ]
+  }
+]
